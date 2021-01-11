@@ -38,9 +38,19 @@ public class CruiseControl {
 		}
 	}
 	
-	private static class Attribute{
+	static class Attribute{
 		private IBrake brake;
 		private IEngine engine;
 		private IShaft shaft;
+		
+		public IBrake getBrake() {
+			return brake;
+		}
+		public IEngine getEngine() {
+			return engine;
+		}
+		public IShaft getShaft() {
+			return shaft;
+		}
 	}
 }
