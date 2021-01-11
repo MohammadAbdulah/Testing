@@ -11,4 +11,14 @@ public class CruiseControl_Test {
 	public void getProductInfo_GMBrake() {		 
 		 assertEquals(" [ GM Brake ] ", control.attribute.getBrake().getProductInfo());
 	}
+	
+	@Test
+	public void getProductInfo_ChevyShaft() {		 
+		 assertEquals(" [ Chevy Shaft ] ", control.attribute.getShaft().getProductInfo());
+	}
+	
+	@Test
+	public void getProductInfo_GMEngine() {		 
+		 assertEquals(" [ GM Engine ] ", control.attribute.getEngine().getProductInfo());
+	}
 }
